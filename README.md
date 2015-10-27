@@ -2,7 +2,7 @@
 Simple app to demostrate the use of cordova plugin chrome socket tcp
 
 1. create ionic project from this repo
-2. add cordova udp plugin (https://github.com/MobileChromeApps/cordova-plugin-chrome-apps-sockets-tcp)
+2. add cordova tcp plugin (https://github.com/MobileChromeApps/cordova-plugin-chrome-apps-sockets-tcp)
 3. try it!
 
 This app has only one screen. On the top there are 3 fields:
