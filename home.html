@@ -1,0 +1,29 @@
+<ion-pane>
+	<ion-content class="content">
+		<ion-list>
+			<ion-item class="item item-divider">
+				Send
+			</ion-item>
+			<ion-item>
+				<div class="list">
+					<label class="item item-input">
+				    	<input type="text" placeholder="Data" ng-model="vm.data">
+					</label>
+					<label class="item item-input">
+						<input type="text" placeholder="Addr" ng-model="vm.addr">
+					</label>
+					<label class="item item-input">
+						<input type="text" placeholder="Port" ng-model="vm.port">
+					</label>
+					<button ng-click="vm.send()">Send</button>
+				</div>
+			</ion-item>
+			<ion-item class="item item-divider">
+				Received
+			</ion-item>
+			<ion-item class="content item item-text-wrap">
+				{{vm.result}}
+			</ion-item>
+		</ion-list>
+	</ion-content>
+</ion-pane>
